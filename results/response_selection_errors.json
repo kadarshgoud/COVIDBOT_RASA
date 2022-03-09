@@ -1,0 +1,258 @@
+[
+  {
+    "text": "why is skin-on-skin contact to be avoided?",
+    "intent_response_key_target": "faq/spread_disease",
+    "intent_response_key_prediction": {
+      "name": "faq/corona_lasts_on_surfaces",
+      "confidence": 0.8556216359138489
+    }
+  },
+  {
+    "text": "can you be infected and not show any symptoms?",
+    "intent_response_key_target": "faq/symptoms",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing",
+      "confidence": 0.4581732451915741
+    }
+  },
+  {
+    "text": "what is important about hand-washing?",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing_techniques",
+      "confidence": 0.9173579812049866
+    }
+  },
+  {
+    "text": "what is the guidance for handwashing",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing_techniques",
+      "confidence": 0.9165509343147278
+    }
+  },
+  {
+    "text": "why do i need to wash my hands",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing_techniques",
+      "confidence": 0.6031140685081482
+    }
+  },
+  {
+    "text": "what happens if i get corona",
+    "intent_response_key_target": "faq/spread_disease",
+    "intent_response_key_prediction": {
+      "name": "faq/symptoms",
+      "confidence": 0.7679416537284851
+    }
+  },
+  {
+    "text": "can i have a test if i think i have coronavirus?",
+    "intent_response_key_target": "faq/testing",
+    "intent_response_key_prediction": {
+      "name": "faq/symptoms",
+      "confidence": 0.9639977812767029
+    }
+  },
+  {
+    "text": "can i have a test?",
+    "intent_response_key_target": "faq/testing",
+    "intent_response_key_prediction": {
+      "name": "faq/how_to_protect_from_coronavirus",
+      "confidence": 0.25676387548446655
+    }
+  },
+  {
+    "text": "how can i get tested?",
+    "intent_response_key_target": "faq/testing",
+    "intent_response_key_prediction": {
+      "name": "faq/symptoms",
+      "confidence": 0.9912121891975403
+    }
+  },
+  {
+    "text": "i think i have coronavirus, should i get a test?",
+    "intent_response_key_target": "faq/testing_1",
+    "intent_response_key_prediction": {
+      "name": "faq/symptoms",
+      "confidence": 0.5739375948905945
+    }
+  },
+  {
+    "text": "can covid be cured?",
+    "intent_response_key_target": "faq/vaccine",
+    "intent_response_key_prediction": {
+      "name": "faq/about_corona",
+      "confidence": 0.8864820003509521
+    }
+  },
+  {
+    "text": "what amount of alcohol is needed in hand gel?",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/symptoms",
+      "confidence": 0.5501189827919006
+    }
+  },
+  {
+    "text": "what strength percentage of alcohol is required for hand gel to work?",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/about_corona",
+      "confidence": 0.3473822772502899
+    }
+  },
+  {
+    "text": "what are the instructions for hand-washing",
+    "intent_response_key_target": "faq/handwashing_techniques",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing",
+      "confidence": 0.5402143597602844
+    }
+  },
+  {
+    "text": "how should i wash my hands",
+    "intent_response_key_target": "faq/handwashing_techniques",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing",
+      "confidence": 0.9554235935211182
+    }
+  },
+  {
+    "text": "Recent updates on covid19 virus?",
+    "intent_response_key_target": "faq/find_latest_information",
+    "intent_response_key_prediction": {
+      "name": "faq/about_corona",
+      "confidence": 0.2700289785861969
+    }
+  },
+  {
+    "text": "why should i quarantine myself?",
+    "intent_response_key_target": "faq/symptoms",
+    "intent_response_key_prediction": {
+      "name": "faq/quarantine",
+      "confidence": 0.6667784452438354
+    }
+  },
+  {
+    "text": "who can get tested?",
+    "intent_response_key_target": "faq/symptoms",
+    "intent_response_key_prediction": {
+      "name": "faq/testing",
+      "confidence": 0.7819341421127319
+    }
+  },
+  {
+    "text": "can i have a test even if i don't have symptoms?",
+    "intent_response_key_target": "faq/testing",
+    "intent_response_key_prediction": {
+      "name": "faq/symptoms",
+      "confidence": 0.7203340530395508
+    }
+  },
+  {
+    "text": "at what point i should go for test?",
+    "intent_response_key_target": "faq/testing_1",
+    "intent_response_key_prediction": {
+      "name": "faq/symptoms",
+      "confidence": 0.2558923065662384
+    }
+  },
+  {
+    "text": "who should avoid contact?",
+    "intent_response_key_target": "faq/vulnerable",
+    "intent_response_key_prediction": {
+      "name": "faq/distancing",
+      "confidence": 0.7587040066719055
+    }
+  },
+  {
+    "text": "how often should i wash my hands",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing_techniques",
+      "confidence": 0.9747595191001892
+    }
+  },
+  {
+    "text": "when should i wash my hands",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing_techniques",
+      "confidence": 0.9707613587379456
+    }
+  },
+  {
+    "text": "what is life of covid19 virus on the surfaces?",
+    "intent_response_key_target": "faq/corona_lasts_on_surfaces",
+    "intent_response_key_prediction": {
+      "name": "faq/about_corona",
+      "confidence": 0.6893400549888611
+    }
+  },
+  {
+    "text": "What is the recovery time for the coronavirus disease?",
+    "intent_response_key_target": "faq/recovery_time_corona",
+    "intent_response_key_prediction": {
+      "name": "faq/about_corona",
+      "confidence": 0.4213489294052124
+    }
+  },
+  {
+    "text": "can covid get into my eyes?",
+    "intent_response_key_target": "faq/spread_disease",
+    "intent_response_key_prediction": {
+      "name": "faq/about_corona",
+      "confidence": 0.6396182179450989
+    }
+  },
+  {
+    "text": "why can't i touch my face with my hands?",
+    "intent_response_key_target": "faq/spread_disease",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing",
+      "confidence": 0.5586753487586975
+    }
+  },
+  {
+    "text": "how long do i have to self-isolate for?",
+    "intent_response_key_target": "faq/isolation",
+    "intent_response_key_prediction": {
+      "name": "faq/distancing",
+      "confidence": 0.8104754686355591
+    }
+  },
+  {
+    "text": "how long do i have to stay inside",
+    "intent_response_key_target": "faq/isolation",
+    "intent_response_key_prediction": {
+      "name": "faq/distancing",
+      "confidence": 0.884856641292572
+    }
+  },
+  {
+    "text": "What does Coronavirus do?",
+    "intent_response_key_target": "faq/symptoms",
+    "intent_response_key_prediction": {
+      "name": "faq/about_corona",
+      "confidence": 0.5080791115760803
+    }
+  },
+  {
+    "text": "what if someone is diabetic?",
+    "intent_response_key_target": "faq/vulnerable",
+    "intent_response_key_prediction": {
+      "name": "faq/spread_disease",
+      "confidence": 0.359101265668869
+    }
+  },
+  {
+    "text": "how long should i hand-wash for?",
+    "intent_response_key_target": "faq/handwashing",
+    "intent_response_key_prediction": {
+      "name": "faq/handwashing_techniques",
+      "confidence": 0.9289149045944214
+    }
+  }
+]

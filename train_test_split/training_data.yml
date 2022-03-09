@@ -1,0 +1,676 @@
+version: "2.0"
+nlu:
+- intent: faq/recovery_time_corona
+  examples: |
+    - minimum time required by the corona effected person to get recovered?
+    - What is the recovery time for the coronavirus disease?
+    - time taken by a person to get recovered from covid-19?
+- intent: faq/steps_for_sick_person
+  examples: |
+    - How to react after getting sick?
+    - What to do if I get sick?
+    - What if I get sick?
+- intent: faq/find_latest_information
+  examples: |
+    - where can i find the latest information on covid-19?
+    - new information on corona virus found in?
+    - present data on corona virus found in the website?
+    - Recent updates on covid19 virus?
+    - current info about covid19 found in?
+- intent: faq/testing_1
+  examples: |
+    - when should i get a test?
+    - at what point i should go for test?
+    - i think i have coronavirus, should i get a test?
+    - who should take the test?
+    - i think i've got it, should i get a test?
+- intent: faq/herd_immunity
+  examples: |
+    - Herd immunity
+    - meaning of herd immunity
+    - what about herd immunity
+    - what does herd immunity mean?
+    - what is herd immunity?
+    - define herd immunity
+- intent: faq/Solidarity_Trial
+  examples: |
+    - what do you know about Solidarity Trial?
+    - Solidarity Trial
+    - what about solidarity trial
+    - what does Solidarity Trial mean?
+    - define Solidarity Trial
+    - meaning of Solidarity Trial
+- intent: faq/molecular_test
+  examples: |
+    - what do you know about molecular test?
+    - meaning of molecular test
+    - what does molecular test mean?
+    - what is molecular test?
+    - what about molecular test
+- intent: faq/serological_test
+  examples: |
+    - what is serological test?
+    - serological test
+    - what does serological test mean?
+    - what do you know about serological test?
+    - define serological test
+    - what about serological test
+- intent: faq/rapid_test
+  examples: |
+    - meaning of rapid test
+    - rapid test
+    - define rapid test
+    - what do you know about rapid test?
+    - what is rapid test?
+- intent: faq/antibiotics_not_useful
+  examples: |
+    - which antibiotics are used for treating corona virus?
+    - does antibiotics are useful?
+    - Are antibiotics effective in preventing COVID-19?
+    - Are antibiotics effective in treating covid?
+    - Can i use antibiotics for covid-19?
+    - are antibiotics useful?
+- intent: faq/medical_mask
+  examples: |
+    - what is medical mask?
+    - medical mask
+    - meaning of medical mask
+    - what does medical mask mean?
+    - define medical mask
+    - what do you know about medical mask?
+- intent: faq/respirators_mask
+  examples: |
+    - what about respirators
+    - define respirators
+    - what do you know about respirators?
+    - what is respirators?
+    - meaning of respirators
+- intent: faq/face_shield
+  examples: |
+    - define face shield
+    - what does face shield mean?
+    - what is face shield?
+    - meaning of face shield
+    - what about face shield
+    - what do you know about face shield?
+- intent: faq/contact_tracing
+  examples: |
+    - contact tracing
+    - what is contact tracing?
+    - define contact tracing
+    - meaning of contact tracing
+    - what about contact tracing
+- intent: faq/precautions_for_travel
+  examples: |
+    - what precautions should be taken durning travel?
+    - what do you know about essential travel?
+    - what is essential travel?
+    - meaning of essential travel
+    - what about essential travel
+    - precautions to be taken while travelling?
+    - essential travel
+    - define essential travel
+- intent: faq/types_of_masks
+  examples: |
+    - What do you mean by mask?
+    - What are masks?
+    - Different kinds of masks available?
+    - types of masks?
+    - Define mask?
+    - various masks availble for covid19?
+    - Mask
+    - available mask types
+- intent: faq/quarantine
+  examples: |
+    - what does quarantine mean?
+    - what about quarantine
+    - what is quarantine?
+    - what do you know about quarantine?
+    - define quarantine
+    - meaning of quarantine
+    - how does quarantine work?
+    - what is self-quarantine
+- intent: faq/isolation
+  examples: |
+    - define isolation
+    - what is isolation?
+    - what is self-isolation
+    - what do you know about isolation?
+    - what does isolation mean?
+    - how long do i have to self-isolate for?
+    - how long do i have to stay inside
+    - isolation
+    - for how long do i need to stay at home?
+    - when should i stay in isolation?
+- intent: faq/corona_lasts_on_surfaces
+  examples: |
+    - how long can the virus remain on surfaces?
+    - how long does the virus stay on your hands face?
+    - can you catch corona from an unclean surface?
+    - lifespan of corona virus on sufaces?
+    - why do you have to clean surfaces?
+    - can you catch the virus from dirty surfaces?
+    - how long does it stay on skin?
+    - what is life of covid19 virus on the surfaces?
+    - how long does coronavirus stay on surfaces?
+    - can coronavirus survive on skin?
+- intent: faq/how_to_protect_from_coronavirus
+  examples: |
+    - how can i avoid getting coronavirus?
+    - what should i do to avoid getting coronavirus?
+    - how do we stop people getting sick?
+    - what should i do to avoid getting covid?
+    - how can i protect myself from being effected by covid19?
+    - pre-requsites to avoid covid19
+    - How to protect yourself from coronavirus?
+    - i want to avoid getting covid, what should i do?
+    - how do we stop people getting coronavirus?
+    - steps to be followed to avoid getting corona virus?
+    - what should i do to protect myself from catching covid-19?
+- intent: faq/fabric_mask
+  examples: |
+    - what do you know about non-medical mask ?
+    - what about fabric mask
+    - define fabric mask
+    - what do you know about fabric mask?
+    - what about non-medical mask
+    - meaning of non-medical mask
+    - what is fabric mask?
+    - what does fabric mask mean?
+    - what does non-medical mask  mean?
+    - define non-medical mask
+    - meaning of fabric mask
+- intent: faq/testing
+  examples: |
+    - how can i get tested?
+    - how does testing work?
+    - how does testing for corona work?
+    - is there any testing going on?
+    - how are they testing people for covid19?
+    - who are they testing for corona virus right now?
+    - are there tests to detect corona?
+    - when will testing be available?
+    - can i have a test if i think i have coronavirus?
+    - can i have a test?
+    - are tests available?
+    - how do they test someone for covid-19?
+- intent: faq/handwashing
+  examples: |
+    - what amount of alcohol is needed in hand gel?
+    - how often should i wash my hands
+    - do i need to use hand sanitiser?
+    - should i use soap or hand sanitiser?
+    - how does hand-sanitiser work?
+    - how does soap help keep the virus away?
+    - what is the guidance for handwashing
+    - why do i need to wash my hands
+    - when should i wash my hands
+    - what is important about hand-washing?
+    - what strength percentage of alcohol is required for hand gel to work?
+    - why does soap help with containing covid 19?
+    - can soap help with corona virus?
+- intent: faq/handwashing_techniques
+  examples: |
+    - steps for washing hands
+    - cleaning hands
+    - How to prevent germs?
+    - detail procedure for hand cleaning
+    - techniques for hand washing
+    - how to wash hands?
+    - what are good methods for handwashing?
+    - What is hand hygiene?
+    - how to clean my hands
+    - what are the hand-washing techniques?
+    - hand hygiene
+    - germs prevention
+    - what are the techniques for hand washing?
+    - prevent covid-19
+    - washing hands
+    - what are the handwashing techniques
+    - Do you know about handwashing steps?
+- intent: faq/vaccine
+  examples: |
+    - am i immune once i've been vaccinated?
+    - can covid be cured?
+    - can inoculation protect you from coronavirus?
+    - can you be inoculated against the virus?
+    - are they working on vaccines?
+    - can researching make a vaccine?
+    - how long will it take to research a vaccine?
+    - can i be vaccinated?
+    - what is inoculation?
+    - how long will it take to develop a vaccine?
+    - can you be vaccinated?
+    - is there a vaccine against coronavirus?
+    - can you get vaccinated?
+    - when will inoculations be available?
+    - can vaccines protect you from corona?
+    - how long will it take to develop inoculation?
+    - can you be vaccinated to protect you from covid-19?
+    - are they researching vaccines?
+    - how can i be vaccinated?
+    - is there a cure?
+    - are inoculations available?
+- intent: faq/spread_disease
+  examples: |
+    - why shouldn't i touch my eyes?
+    - how contagious is it?
+    - is corona virus contagious?
+    - how does covid pass from person to person?
+    - how do you catch coronavirus
+    - how does covid spread from person to person?
+    - how do i catch corona?
+    - how did it become so widespread?
+    - is it contagious?
+    - does does a virus spread?
+    - is this disease very contagious?
+    - why is skin-on-skin contact to be avoided?
+    - how did covid-19 become so widespread?
+    - could i pass corona virus onto someone else?
+    - how do you catch it?
+    - how did corona become so widespread?
+    - how does covid-19 spread between between?
+    - why shouldn't i touch my face?
+    - can sneezing spread coronavirus?
+    - why can't i touch my face with my hands?
+    - can coronavirus spread by coughing?
+    - how did this disease become so widespread?
+    - how does covid-19 spread?
+    - how would i catch the virus from someone else?
+    - does coughing spread covid-19?
+    - can you catch coronavirus from another person?
+    - how does the virus spread
+- intent: faq/distancing
+  examples: |
+    - are there guidelines for how to self-isolate?
+    - for what reasons can i still travel?
+    - how does social distancing work?
+    - who needs to stay at home?
+    - why do i have to avoid people?
+    - why do i have to avoid going outside?
+    - how do i self isolate
+    - can i walk somewhere?
+    - can i still travel to work?
+    - do i have to avoid people?
+    - do i have to stay away from people?
+    - what if i want to go for a walk
+    - can i go for a walk?
+    - what are the guidelines for a lockdown?
+    - how do i socially distance?
+    - how do i avoid people?
+    - why does social distancing help?
+    - who doesn't need to stay at home?
+    - how far apart should i stay for social distancing?
+    - what amount of time do i have to self-isolate for?
+    - what do i have to self-isolate for?
+    - what is social distancing?
+    - what are the guidelines for social-distancing
+    - for what reasons can i still go outside?
+    - why should i isolate
+    - do i have to isolate?
+    - should i stay away from people?
+    - do i have to stay inside?
+- intent: faq/about_corona
+  examples: |
+    - how does a pandemic work?
+    - what is novel corona?
+    - what do viruses look like?
+    - what is covid-19
+    - what does covid mean?
+    - what is a virus?
+    - is covid-19 a virus?
+    - what is the structure of a virus?
+    - what does covid19 mean?
+    - what is the full name of the virus?
+    - what does it mean if we have a pandemic?
+    - what is the full name of coronavirus?
+    - how does covid work?
+    - what is pandemic
+    - what is the structure of coronavirus
+    - how is a virus structured?
+    - why is it called corona virus?
+    - what does outbreak mean?
+    - how do viruses happen?
+    - how do viruses work?
+    - what does covid-19 mean?
+    - what is the full name of covid-19?
+    - what are corona viruses?
+    - what kind of disease is corona?
+    - what are viruses?
+    - what is an epidemic?
+    - what do they mean by "pandemic"
+    - what does it mean if we have an outbreak?
+    - how does an epidemic work?
+    - how do viruses behave?
+    - what does covid19 stand for?
+    - what is the corona virus?
+    - what does "pandemic" mean?
+    - what does covid stand for?
+    - what is corona?
+- intent: faq/vulnerable
+  examples: |
+    - can cats get the virus?
+    - can your age affect the severity?
+    - does my age matter?
+    - can my cat get it?
+    - why do some people need intensive care?
+    - what groups are vulnerable?
+    - how what age group is most at risk?
+    - who is most likely to need to go to the hospital?
+    - i am years old
+    - are children vulnerable to corona virus?
+    - why do we need ventilators?
+    - how old are those likely to have a severe reaction?
+    - how many years old are those at risk?
+    - are children at risk of coronavirus?
+    - am i more vulnerable if i have cancer?
+    - why are symptoms more severe depending on how old i am?
+    - should i be worried about my parents?
+    - why does my age matter?
+    - i'm pregnant, am i at a higher risk?
+    - can children get it?
+    - what age group is most vulnerable?
+    - who should avoid contact?
+    - i have asthma, am i more at risk?
+    - i'm worried about my grand parents
+    - what people are most likely to experience severe symptoms?
+    - what age range is most at risk?
+    - why are symptoms more severe in some people?
+    - can your age affect the severity of the illness?
+    - what if i'm years old?
+    - who might need ventilators?
+    - who is most at risk of severe symptoms?
+    - can children get coronavirus?
+    - does respiratory disease increase my risk?
+    - who should avoid contact during the outbreak?
+    - why does age affect the severity?
+    - what if i'm high risk?
+    - can my baby get coronavirus?
+    - who might need intensive care?
+    - what are ventilators for?
+    - what are the high risk groups?
+    - who is most likely to need hospital treatment?
+- intent: faq/symptoms
+  examples: |
+    - how high is a fever?
+    - what is a fever?
+    - what does asymptomatic mean?
+    - how high does my fever have to be for me to go to hospital?
+    - how badly should i be coughing?
+    - what are the signs of covid-19?
+    - what are the signs?
+    - what do aches and pains mean?
+    - what does dry cough mean?
+    - can i still have it but have no symptoms?
+    - when is a cough persistent?
+    - am i going to die?
+    - what does persistent cough mean?
+    - how do i know if i'm a carrier of covid-19?
+    - what does this virus do to the body?
+    - how can i tell if i have corona virus?
+    - what does having corona feel like?
+    - What Happens If i get  Coronavirus?
+    - what does it mean to be asymptomatic?
+    - i have a fever, do i have corona?
+    - why should i quarantine myself?
+    - how severe do my symptoms have to be before i go to hospital?
+    - how would my body feel if i caught the virus?
+    - can you tell me what the symptoms are?
+    - what are the symptoms?
+    - what signs of covid-19 should i look for?
+    - is coughing a symptom of the disease?
+    - what does having the virus feel like?
+    - how do i know if i've caught it?
+    - how do i know i have covid-19?
+    - how do i know if i have it?
+    - am i going to need hospital treatment?
+    - when should i go to hospital?
+    - can people die from this?
+    - how long do i have to be sick for before i can go to a clinic?
+    - how is your body affected by corona?
+    - what is a high temperatures?
+    - what should i do if i think i have it?
+    - what temperature is a fever?
+    - what is different about a dry cough?
+    - How does human body behave if i get coronavirus?
+    - what is an asymptomatic carrier?
+    - what are the signs of corona?
+    - What does Coronavirus do?
+    - how do i know i might be a carrier?
+    - could i be carrying coronavirus if i don't have symptoms?
+    - who can get tested?
+    - what does having corona virus feel like?
+    - what do the symptoms look like?
+    - what does it mean if i'm coughing?
+    - how do i know i might have it?
+    - what counts as a high temperature?
+    - are aches a symptom?
+    - how long should i have a fever for?
+    - are the symptoms serious?
+    - can there be complications from covid-19 symptoms?
+    - is a symptom?
+    - can you be infected and not show any symptoms?
+    - what is a dry cough?
+    - what should i do if i think i might have corona virus?
+    - what are the signs and symptoms?
+- intent: affirm
+  examples: |
+    - indeed
+    - that sounds good
+    - yes
+    - correct
+    - of course
+- intent: deny
+  examples: |
+    - never
+    - no way
+    - don't like that
+    - n
+    - no
+    - not really
+- intent: goodbye
+  examples: |
+    - bye! Stay home
+    - good night
+    - good by
+    - cee you later
+    - goodbye
+    - see you later
+    - bye
+    - see you around
+- intent: thanks
+  examples: |
+    - cool, thanks
+    - perfect thank you
+    - Thanks for that
+    - cool thank you
+    - thanks a bunch for everything
+    - Thanks bot
+    - Thank you
+    - cheers bro
+    - amazing, thanks
+    - Thank you so much
+    - cheers
+    - thanks for the help
+    - Thanks
+- intent: mood_great
+  examples: |
+    - so perfect
+    - perfect
+    - I am amazing
+    - I am going to save the world
+    - great
+    - good
+    - feeling like a king
+    - amazing
+    - so so perfect
+    - so good
+    - extremely good
+    - super stoked
+    - fine
+- intent: mood_unhappy
+  examples: |
+    - I'm so sad
+    - my day was horrible
+    - I am disappointed
+    - super sad
+    - unhappy
+    - bad
+    - very bad
+    - I am sad
+    - very sad
+    - awful
+    - extremly sad
+    - I don't feel very well
+    - not good
+    - not very good
+- intent: smalltalk_human
+  examples: |
+    - am i talking to a robot?
+    - is this a person?
+    - can i contact a human being?
+    - am i talking to a human?
+    - am i talking to a person
+    - who am i talking to?
+    - i don't want to speak with a bot
+    - i don't want to talk
+    - am i talking to a bot?
+    - are you a human?
+    - i don't want to talk with a chatbot
+    - are you real?
+    - am i speaking to a bot?
+    - you real?
+    - am i talking to a real person?
+    - are you a real person?
+- intent: greet
+  examples: |
+    - hello there
+    - hey
+    - ...
+    - Hello
+    - Hey there
+    - .
+    - let's go
+    - good evening
+    - good afternoon
+    - goodmorning
+    - morning
+    - Hi covidbot
+    - hey there
+    - Hi mr robot
+    - Hellooo mate
+    - moin
+    - What is your name?
+    - hello
+    - hey dude
+    - good morning
+- intent: out_of_scope
+  examples: |
+    - I want french cuisine
+    - i want food
+    - you're going to need a bigger boat
+    - tell me what you're wearing?
+    - i am heavy weapons guy and this is my weapon
+    - I changed my mind
+    - you don't win friends with salad
+    - can we keep chatting?
+    - please help with my ice cream it's dripping
+    - can i order a pizza?
+    - please marry me
+    - you come to me on the day of my daughter's wedding
+    - i want a non dripping ice cream
+    - show me a picture of a chicken
+    - i'm asking you to marry me
+    - i do not care how are you
+    - restaurant
+    - will you marry me?
+    - what are you wearing?
+    - how much wood could a wood chuck chuck if a wood chuck would chuck wood?
+    - i want to order a pizza
+    - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+    - you already have that
+    - that link doesn't work!
+    - it's an albany expression
+    - i need a taxi
+    - fuck you
+    - trial by stone!
+    - can i arrange a taxi?
+    - Can I ask you questions first?
+    - give me food
+    - a wood chuck can't chuck any kind of wood
+    - give quiche a chance
+    - again?
+    - hang on let me find it
+    - this is a really frustrating experience
+    - oh wait i gave you my work email address can i change it?
+    - can i be shown a gluten free restaurant
+    - i know kung-fu
+    - did i break you
+    - stop it, i do not care!!!
+    - i don't care!!!!
+    - i'd like a pizza please
+    - neither
+    - can i book a taxi?
+    - are you wearing anything?
+    - what?
+    - how come?
+    - i am hungry
+- synonym: hospital
+  examples: |
+    - health centre
+    - infirmary
+    - medical centre
+    - medical institution
+    - clinic
+    - hospitals
+    - health centres
+    - infirmaries
+    - medical centres
+    - medical institutions
+    - clinics
+    - emergency room
+    - emergency
+- synonym: corona
+  examples: |
+    - coronavirus
+    - covid
+    - covid-19
+    - covid19
+    - covid 19
+    - virus
+    - viral
+    - pandemic
+    - epidemic
+    - outbreak
+    - illness
+    - disease
+    - viruses
+    - infection
+- synonym: illness
+  examples: |
+    - asthma
+    - diabetes
+    - asthmatic
+    - diabetic
+    - hypertension
+    - heart
+    - heart disease
+    - cardiovascular
+    - cardiovascular disease
+    - respiratory disease
+    - chronic
+    - cancer
+    - lung
+    - lung disease
+    - high blood pressure
+    - blood pressure
+- lookup: name
+  examples: |
+    - Adarsh
+    - Johannes
+    - Rohit
+    - raju
+    - ravi
+    - Chandrakanth
+    - manish
+    - Bhargav

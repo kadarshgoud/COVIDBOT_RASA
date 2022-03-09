@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+		 <style>
+		 		.rw-conversation-container .rw-header{background-color: #fa7070}
+		 		.rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: #fa7070}
+		 		.rw-launcher{background-color: #fa7070}  // chat icon
+		 </style>
+		<script>!(function () {
+				let e = document.createElement("script"),
+				t = document.head || document.getElementsByTagName("head")[0];
+				(e.src =
+				"https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+				(e.async = !0),
+				(e.onload = () => {
+					window.WebChat.default(
+					{
+						initPayload: '/greet',       			// intial intent
+						customData: { language: "en" },
+						socketUrl: "http://localhost:5005",  //Rasa deployment link
+						title: 'COVID BOT',
+						subtitle: 'Say Hi and get started!!',
+						inputTextFieldHint: 'Type a message'
+						// add other props here
+					},
+					null
+					);
+					window.localStorage.clear();
+				}),
+				t.insertBefore(e, t.firstChild);
+				})();
+				//localStorage.clear() //clear window
+				</script>
+	</body>
+</html>

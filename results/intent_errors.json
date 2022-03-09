@@ -1,0 +1,442 @@
+[
+  {
+    "text": "Hi covidbot",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.810822069644928
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.49041205644607544
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7412009239196777
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7477369904518127
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5939976572990417
+    }
+  },
+  {
+    "text": "did i break you",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "smalltalk_human",
+      "confidence": 0.7002993226051331
+    }
+  },
+  {
+    "text": "you don't win friends with salad",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "smalltalk_human",
+      "confidence": 0.8760244250297546
+    }
+  },
+  {
+    "text": "can i contact a human being?",
+    "intent": "smalltalk_human",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9828817844390869
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6431173086166382
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4552254378795624
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8802035450935364
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7775051593780518
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7885916233062744
+    }
+  },
+  {
+    "text": "don't like that",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "smalltalk_human",
+      "confidence": 0.44740015268325806
+    }
+  },
+  {
+    "text": "awful",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3042658865451813
+    }
+  },
+  {
+    "text": "i don't care!!!!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "smalltalk_human",
+      "confidence": 0.3125903904438019
+    }
+  },
+  {
+    "text": "i do not care how are you",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9781621098518372
+    }
+  },
+  {
+    "text": "how come?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9988910555839539
+    }
+  },
+  {
+    "text": "who is your favourite robot?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9604096412658691
+    }
+  },
+  {
+    "text": "now i have a machine gun ho-ho-ho!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6422232985496521
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8568378686904907
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6875185966491699
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9994946718215942
+    }
+  },
+  {
+    "text": "can i be shown a gluten free restaurant",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.7355754375457764
+    }
+  },
+  {
+    "text": "that link doesn't work!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9317386746406555
+    }
+  },
+  {
+    "text": "this is a really frustrating experience",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9994015693664551
+    }
+  },
+  {
+    "text": "What is your name?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9472137093544006
+    }
+  },
+  {
+    "text": "bye! Stay home",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.644366979598999
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3759519159793854
+    }
+  },
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5333945155143738
+    }
+  },
+  {
+    "text": "fine",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.9548932313919067
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.689924955368042
+    }
+  },
+  {
+    "text": "I am disappointed",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999985694885254
+    }
+  },
+  {
+    "text": "someone call the police i think the bot died",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999316930770874
+    }
+  },
+  {
+    "text": "show me a picture of a chicken",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9945144057273865
+    }
+  },
+  {
+    "text": "neither",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8536356091499329
+    }
+  },
+  {
+    "text": "again?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.51193767786026
+    }
+  },
+  {
+    "text": "you already have that",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.36491063237190247
+    }
+  },
+  {
+    "text": "is it a wasteland full of broken robot parts?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999580383300781
+    }
+  },
+  {
+    "text": "i'm all out of bubblegum",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9757357239723206
+    }
+  },
+  {
+    "text": "i don't want to talk",
+    "intent": "smalltalk_human",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7063373923301697
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5544105768203735
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9813888072967529
+    }
+  },
+  {
+    "text": "amazing",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.7864718437194824
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8541457653045654
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2408866286277771
+    }
+  },
+  {
+    "text": "i am hungry",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "smalltalk_human",
+      "confidence": 0.4209519028663635
+    }
+  },
+  {
+    "text": "what?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9852877259254456
+    }
+  },
+  {
+    "text": "Can I ask you questions first?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "can we keep chatting?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9979753494262695
+    }
+  },
+  {
+    "text": "talk to me",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "smalltalk_human",
+      "confidence": 0.9996998310089111
+    }
+  },
+  {
+    "text": "i know kung-fu",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9573678970336914
+    }
+  },
+  {
+    "text": "trial by stone!",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9380504488945007
+    }
+  },
+  {
+    "text": "you're going to need a bigger boat",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5451517701148987
+    }
+  }
+]

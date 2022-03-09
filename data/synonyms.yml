@@ -1,0 +1,51 @@
+version: "2.0"
+nlu:
+- synonym: hospital
+  examples: |
+    - health centre
+    - infirmary
+    - medical centre
+    - medical institution
+    - clinic
+    - hospitals
+    - health centres
+    - infirmaries
+    - medical centres
+    - medical institutions
+    - clinics
+    - emergency room
+    - emergency
+- synonym: corona
+  examples: |
+    - coronavirus
+    - covid
+    - covid-19
+    - covid19
+    - covid 19
+    - virus
+    - viral
+    - pandemic
+    - epidemic
+    - outbreak
+    - illness
+    - disease
+    - viruses
+    - infection
+- synonym: illness
+  examples: |
+    - asthma
+    - diabetes
+    - asthmatic
+    - diabetic
+    - hypertension
+    - heart
+    - heart disease
+    - cardiovascular
+    - cardiovascular disease
+    - respiratory disease
+    - chronic
+    - cancer
+    - lung
+    - lung disease
+    - high blood pressure
+    - blood pressure

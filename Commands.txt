@@ -1,0 +1,17 @@
+G:
+cd G:\Rasa_bot_Final\rasa_retrival_31032021
+
+conda activate coronabot
+
+
+rasa run -m models --enable-api --cors "*"
+
+
+without action server
+rasa run -m models --enable-api --cors "*" --debug
+
+with action server
+rasa run actions --cors "*" --debug
+
+UI chatbot:
+https://github.com/JiteshGaikwad/ChatbotWidget

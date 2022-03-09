@@ -1,0 +1,244 @@
+version: '2.0'
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - thanks
+  - mood_unhappy
+  - bot_challenge
+  - faq
+  - smalltalk_human
+  - out_of_scope
+  - asking_bot_about_health
+    
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+  
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hello!! How are you?
+  utter_faq/distancing:
+  - image: https://www.covidoumedicine.com/images/content/covid-19-curves.gif
+    text: Social distancing, also called “physical distancing,” means keeping space between yourself and other people outside of your home. To practice social or physical distancing, Stay at least 6 feet (2 meters) from other people. Do not gather in groups. Stay out of crowded places and avoid mass gatherings
+  - image: https://www.covidoumedicine.com/images/content/covid-19-curves.gif
+    text: Social distancing, or physical distancing, is a set of non-pharmaceutical interventions or measures taken to prevent the spread of a contagious disease by maintaining a physical distance between people and reducing the number of times people come into close contact with each other.
+  - image: https://www.covidoumedicine.com/images/content/covid-19-curves.gif
+    text: Social distancing is a public health practice that aims to prevent sick people from coming in close contact with healthy people in order to reduce opportunities for disease transmission. It can include large-scale measures like canceling group events or closing public spaces, as well as individual decisions such as avoiding crowds.
+  utter_faq/symptoms:
+  - text: COVID-19 affects different people in different ways. Most infected people will develop mild to moderate symptoms.Common symptoms are fever, tiredness, drycough. Some people may experience symptoms such as aches and pains, nasal congestion, runny nose, sore throat, diarrhoea. On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.
+  - text: The virus can cause a range of symptoms, from ranging from mild illness to pneumonia. Symptoms of the disease are fever, cough, sore throat and headaches.
+  - text: Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+  - text: |-
+      The most common symptoms of COVID-19 are
+      Fever
+      Dry cough
+      Fatigue
+      Other symptoms that are less common and may affect some patients include:
+      Loss of taste or smell,
+      Nasal congestion,
+      Conjunctivitis (also known as red eyes)
+      Sore throat,
+      Headache,
+      Muscle or joint pain,
+      Different types of skin rash,
+      Nausea or vomiting,
+      Diarrhea,
+      Chills or dizziness.
+       Symptoms of severe COVID‐19 disease include:
+      Shortness of breath,
+      Loss of appetite,
+      Confusion,
+      Persistent pain or pressure in the chest,
+      High temperature (above 38 °C).
+      Other less common symptoms are:
+      Irritability,
+      Confusion,
+      Reduced consciousness (sometimes associated with seizures),
+      Anxiety,
+      Depression,
+      Sleep disorders,
+      More severe and rare neurological complications such as strokes, brain inflammation, delirium and nerve damage.
+      People of all ages who experience fever and/or cough associated with difficulty breathing or shortness of breath, chest pain or pressure, or loss of speech or movement should seek medical care immediately. If possible, call your health care provider, hotline or health facility first, so you can be directed to the right clinic.
+  - text: People with COVID-19 generally develop signs and symptoms, including mild respiratory symptoms and fever, on an average of 5-6 days after infection (mean incubation period 5-6 days, range 1-14 days). Most people infected with COVID-19 virus have mild disease and recover.
+  utter_faq/spread_disease:
+  - text: |-
+      The virus that causes COVID-19 spreads mainly from person to person. There are several ways this can happen:
+      1. Droplets or aerosols: When an infected person coughs, sneezes, or talks, droplets or tiny particles called aerosols carry the virus into the air from their nose or mouth. Anyone who is within 6 feet of that person can breathe it into their lungs.
+      2. Airborne transmission: Research shows that the virus can live in the air for up to 3 hours. It can get into your lungs if someone who has it breathes out and you breathe that air in.
+      3. Surface transmission: Another way to catch the new coronavirus is when you touch surfaces that someone who has the virus has coughed or sneezed on. You may touch a countertop or doorknob that's contaminated and then touch your nose, mouth, or eyes. The virus can live on surfaces like plastic and stainless steel for 2 to 3 days. To stop it, clean and disinfect all counters, knobs, and other surfaces you and your family touch several times a day.
+      4. Fecal-oral: Studies also suggest that virus particles can be found in infected people's poop. But experts aren't sure whether the infection can spread through contact with an infected person's stool. If that person uses the bathroom and doesn't wash their hands, they could infect things and people that they touch.
+  utter_faq/testing:
+  - text: Covid-19 testing can identify the SARS-CoV-2 virus (virus responsible for COVID-19) and includes methods that detect the presence of virus itself (RT-PCR and isothermal nucleic acid amplification) and those that detect antibodies produced in response to infection
+  - text: |-
+      There are several ways to test for the new strain of coronavirus. Most are either molecular or serological tests.
+      1. Molecular tests
+      2. Serological tests 
+      In most situations, a molecular test is used to detect SARS-CoV-2 and confirm infection. Polymerase chain reaction (PCR) is the most commonly used molecular test. Samples are collected from the nose and/or throat with a swab.
+  - text: COVID-19 testing differs by location. If you have symptoms of COVID-19 and want to get tested, call your medical provider first. You can also visit your state or health department’s website to look for the latest local information on testing. While supplies of these tests are increasing, it may still be difficult to find a place to get tested.
+  utter_faq/vaccine:
+  - text: Yes, there are now several vaccines that are in use. The first mass vaccination programme started in early December 2020. WHO issued an Emergency Use Listing (EULs) for the Pfizer COVID-19 vaccine on 31 December 2020. On 15 February 2021, WHO issued EULs for two versions of the AstraZeneca/Oxford COVID-19 vaccine, manufactured by the Serum Institute of India and SKBio. On 12 March 2021, WHO issued an EUL for the COVID-19 vaccine Ad26.COV2.S, developed by Janssen (Johnson & Johnson). WHO is on track to EUL other vaccine products through June.
+  utter_faq/testing_1:
+  - text: Anyone with symptoms should be tested, wherever possible. People who do not have symptoms but have had close contact with someone who is, or may be, infected may also consider testing contact your local health guidelines and follow their guidance. While a person is waiting for test results, they should remain isolated from others. Where testing capacity is limited, tests should first be done for those at higher risk of infection, such as health workers, and those at higher risk of severe illness such as older people, especially those living in seniors residences or long-term care facilities.
+  utter_faq/vulnerable:
+  - text: People of all ages can be infected by the new coronavirus (2019-nCoV). Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus.
+  - text: |-
+      Based upon available information to date, those at high-risk for severe illness from COVID-19 include:
+      \n 1. People aged 65 years and older.
+      \n 2. People who live in a nursing home or long-term care facility.
+      \n 3. Other high-risk conditions could include:
+      \n \t a. People with chronic lung disease or moderate to severe asthma.
+      \n \t b.People who have serious heart conditions.
+      \n \t c.People who are immunocompromised including cancer treatment.
+      \n \t d.People of any age with severe obesity (body mass index [BMI] >40) or certain underlying medical conditions, particularly if not well controlled, such as those with diabetes, renal failure, or liver disease might also be at risk.
+      \n \t e.People who are pregnant should be monitored since they are known to be at risk with severe viral illness, however, to date data on COVID-19 has not shown increased risk.
+      \n \t f.Many conditions can cause a person to be immunocompromised, including cancer treatment, smoking, bone marrow or organ transplantation, immune deficiencies, poorly controlled HIV or AIDS, and prolonged use of cortico steroids and other immune weakening medications.
+  - text: Current evidence on other coronavirus strains shows that while coronaviruses appear to be stable at low and freezing temperatures for a certain period, food hygiene and good food safety practices can prevent their transmission through food.
+  utter_faq/about_corona:
+  - text: Coronaviruses are a family of viruses that range from the common cold to MERS coronavirus, which is Middle East Respiratory Syndrome coronavirus and SARs, Severe acute respiratory syndrome coronavirus.
+    image: https://imgur.com/a/SS0tl60
+  - text: The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water.
+    image: https://imgur.com/a/SS0tl60
+  - text: COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak beganin Wuhan, China, in December 2019.
+    image: https://imgur.com/a/SS0tl60
+  - text: COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2. WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of "viral pneumonia" in Wuhan, People's Republic of China.
+    image: https://imgur.com/a/SS0tl60
+  - text: Corona viruses are a large family of viruses which may cause ,illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to moresevere diseases such as MiddleEast Respiratory Syndrome (MERS)and Severe Acute Respiratory Syndrome (SARS).The most recentlydiscovered coronavirus causes coronavirus disease COVID-19.
+    image: https://imgur.com/a/SS0tl60
+  utter_faq/handwashing_techniques:
+  - text: |-
+      Follow these five steps every time. 
+       Step 1. Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap. 
+       Step 2. Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails. 
+       Step 3. Scrub your hands for at least 20 seconds.
+       Step 4. Rinse your hands well under clean, running water. 
+       Step 5. Dry your hands using a clean towel or air dry them.
+  utter_faq/handwashing:
+  - text: Washing with soap and water is an effective way to destroy and dislodge many microbes, including the new coronavirus.
+  utter_faq/corona_lasts_on_surfaces:
+  - text: Recent research evaluated the survival of the COVID-19 virus on different surfaces and reported that the virus can remain viable for up to 72 hours on plastic and stainless steel, up to four hours on copper, up to nine hours on skin and up to 24 hours on cardboard.
+  utter_faq/recovery_time_corona:
+  - text: Using available preliminary data, the median time from onset to clinical recovery for mild cases is approximately 2 weeks and is 3-6 weeks for patients with severe or critical disease.
+  utter_faq/how_to_protect_from_coronavirus:
+  - text: |-
+      Make sure you:
+      1. Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub. 
+      2. Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze.
+      3. Avoid close contact (1.5 meter or 4.5 feet) with people who are unwell.\n 
+      4. Stay home and self-isolate from others in the household if you feel unwell. 
+      Avoid:
+      Touching your eyes, nose, or mouth if your hands are not clean           
+  utter_faq/steps_for_sick_person:
+  - text: |-
+      1. Stay home and call your doctor.
+      2. Call your healthcare provider and let them know about your symptoms.
+      Tell them that you have or may have COVID-19. This will help them take care of you and keep other people from getting infected or exposed.
+      3. If you are not sick enough to be hospitalized, you can recover at home. Follow your country/state guidelines for how to take care of yourself at home.
+      4. Know when to get emergency help.
+  utter_faq/herd_immunity:
+  - text: |-
+      'Herd immunity', also known as 'population immunity', is the indirect protection from an infectious disease that happens when a population is immune either through vaccination or immunity developed through previous infection. WHO supports achieving 'herd immunity' through vaccination, not by allowing a disease to spread through any segment of the population, as this would result in unnecessary cases and deaths.
+      Herd immunity against COVID-19 should be achieved by protecting people through vaccination, not by exposing them to the pathogen that causes the disease. 
+      Vaccines train our immune systems to create proteins that fight disease, known as ‘antibodies’, just as would happen when we are exposed to a disease but – crucially – vaccines work without making us sick. Vaccinated people are protected from getting the disease in question and passing on the pathogen, breaking any chains of transmission. 
+      To safely achieve herd immunity against COVID-19, a substantial proportion of a population would need to be vaccinated, lowering the overall amount of virus able to spread in the whole population. One of the aims with working towards herd immunity is to keep vulnerable groups who cannot get vaccinated (e.g. due to health conditions like allergic reactions to the vaccine) safe and protected from the disease. 
+      Achieving herd immunity with safe and effective vaccines makes diseases rarer and saves lives.
+  utter_faq/Solidarity_Trial:
+  - text: The Solidarity Trial is an international clinical trial to help find an effective treatment for COVID-19, launched by WHO and partners. It is hoped that one or more of the treatments under trial will result in improving clinical outcomes in COVID-19 patients and save lives. Other trials are on-going around the world in addition to the Solidarity Trial.
+  utter_faq/molecular_test:
+  - text: |-
+      Molecular tests look for signs of an active infection. They usually involve taking a sample from the 
+      back of the throat with a cotton swab. The doctor then sends the sample off for testing. The sample will undergo a 
+      polymerase chain reaction (PCR) test. This type of test detects signs of the virus’s genetic material. A PCR test can 
+      confirm a diagnosis of COVID-19 if it identifies two specific SARS-CoV-2 genes. If it identifies only one of 
+      these genes, it will produce an inconclusive result. Molecular tests can only help diagnose current cases of COVID-19.
+      They cannot tell whether someone has had the infection and since recovered. Among them Rapid tests (RT-PCR) gives 100% acurate result.
+  utter_faq/serological_test:
+  - text: |-
+      Serological tests detect antibodies that the body produces to fight the virus. 
+      These antibodies are present in anyone who has recovered from COVID-19. The antibodies exist in blood and tissues 
+      throughout the body. A serological test usually requires a blood sample. Serological tests are particularly useful 
+      for detecting cases of infection with mild or no symptoms. The Centers for Disease Control and Prevention (CDC) 
+      are currently developing a serological test for SARS-CoV-2, and they are looking for blood samples from anyone who 
+      has had COVID-19. The samples would be taken at least 21 days after symptoms first developed.         
+  utter_faq/rapid_test:
+  - text: 'Rapid antigen tests (sometimes known as a rapid diagnostic test – RDT) detect viral proteins (known as antigens). Samples are collected from the nose and/or throat with a swab. These tests are cheaper than PCR and will offer results more quickly, although they are generally less accurate. These tests perform best when there is more virus circulating in the community and when sampled from an individual during the time they are most infectious. '
+  utter_faq/isolation:
+  - text: Isolation is used for people with COVID-19 symptoms or who have tested positive for the virus. Being in isolation means being separated from other people, ideally in a medically facility where you can receive clinical care.  If isolation in a medical facility is not possible and you are not in a high risk group of developing severe disease, isolation can take place at home. If you have symptoms, you should remain in isolation for at least 10 days plus an additional 3 days without symptoms. If you are infected and do not develop symptoms, you should remain in isolation for 10 days from the time you test positive.
+  utter_faq/quarantine:
+  - text: Quarantine is used for anyone who is a contact of someone infected with the SARS-CoV-2 virus, which causes COVID-19, whether the infected person has symptoms or not. Quarantine means that you remain separated from others because you have been exposed to the virus and you may be infected and can take place in a designated facility or at home. For COVID-19, this means staying in the facility or at home for 14 days.
+  utter_faq/antibiotics_not_useful:
+  - text: Antibiotics do not work against viruses; they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. In hospitals, physicians will sometimes use antibiotics to prevent or treat secondary bacterial infections which can be a complication of COVID-19 in severely ill patients. They should only be used as directed by a physician to treat a bacterial infection.
+  utter_faq/types_of_masks:
+  - text: |-
+      Masks are a key measure to suppress transmission and save lives. There are three kinds of masks available. They are:
+      1. Medical Masks (also known as surgical masks)
+      2. Non Medical Masks (fabric masks)
+      3. Respirators (known as filtering facepiece respirators - FFP)
+      4. Face shields
+  utter_faq/medical_mask:
+  - text: 'Medical masks (also known as surgical masks) are: a) composed of 3 layers of synthetic nonwoven materials b) configured to have filtration layers sandwiched in the middle c) available in different thicknesses d) have various levels of fluid-resistance and filtration'
+  utter_faq/fabric_mask:
+  - text: |-
+      Fabric masks are the most commonly called as non-medical masks.
+      Fabric masks should be made of three layers of fabric:
+      a) Inner layer of absorbent material, such as cotton.
+      b) Middle layer of non-woven non-absorbent material, such as polypropylene.
+      c) Outer layer of non-absorbent material, such as polyester or polyester blend.
+  utter_faq/respirators_mask:
+  - text: |-
+      Respirators (also known as filtering facepiece respirators -FFP) are available at different performance levels such as FFP2, FFP3, N95, N99.
+      Medical masks and respirator masks are similar in their protection value. However, respirators are specific for certain procedures and instances because they have a tightly fitted component to them. Respirator masks are designed to protect healthcare workers who provide care to COVID-19 patients in settings and areas where aerosol generating procedures are undertaken. Healthcare workers should be fit tested before using a respirator to ensure that they are wearing the correct size. Wearing a loose-fitting respirator will not offer the same protection to the wearer and may allow small particles to get inside the mask through the sides.     
+  utter_faq/face_shield:
+  - text: |-
+      A face shield, an item of personal protective equipment (PPE), aims to protect the wearer's entire face (or part of it) from hazards such as flying objects and road debris, chemical splashes (in laboratories or in industry), or potentially infectious materials (in medical and laboratory environments).
+
+      In the context of COVID-19, some children may not be able to wear a mask due to disabilities or specific situations such as speech classes where the teacher needs to see their mouths. In these cases, face shields may be considered
+      an alternative to masks, but they do not provide the equivalent protection in keeping the virus from being transmitted to others.\nIf a decision is made
+      to use a face shield, it should cover the entire face, wrap around the sides of the face and extend to below the chin. Caution should be taken while wearing
+      one to avoid injuries that could break it and harm the eyes or face.
+  utter_faq/precautions_for_travel:
+  - text: |-
+      During travel, everyone should clean hands frequently, cough or sneeze into a bent elbow or tissue, and try to maintain a physical distance of at least one metre from others. Travelers should follow the recommendations of the travel authorities regarding policies in the airport and of the airline for the flight.
+
+      Essential travel is travel for emergencies and humanitarian actions (including emergency medical flights and medical evacuation). It includes essential personnel (including emergency responders and providers of public health technical support, critical personnel in transport sector such as seafarers and diplomatic officers) and repatriation to a home country. 
+       
+  utter_faq/find_latest_information:
+  - text: "For the latest information on COVID-19, check regularly on the WHO's coronavirus pages: https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+  utter_faq/contact_tracing:
+  - text: Contact tracing is the process of identifying, assessing, and managing people who have been exposed to a disease to prevent onward transmission. These people are called contacts. Contact tracing for COVID-19 requires identifying people who may have been exposed to SARS-CoV-2, the virus that causes COVID-19, and following them daily for 14 days. The goal is to stop transmission of the virus by reducing the number of people who are circulating with the virus.
+  utter_cheer_up:
+  - text: "Don’t give up when dark times come. The more storms you face in life, the stronger you’ll be. Hold on. Your greater is coming."
+  - text: "Cheer up, my dear. After every storm comes the sun. Happiness is waiting for you ahead."
+  - text: "In a bad mood: 1) take a shower, 2) look yourself in the mirror, 3) eat something with sugar, 4) volume up the music, 5) smile baby." 
+  - text: "Smile when in leisure. Smile when in pain. Smile when troubles pour like rain. Smile when someone hurt your feelings, coz you know, smiling always starts the healing!"
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on! 🙂
+  utter_sad:
+  - text: Thanks, I appreciate that, and I'm sorry 😔
+  utter_how_can_i_help:
+  - text: Hi! I am Covid-19 assistant. I am happy to help you in answering questions related to COVID-19.
+  utter_out_of_scope:
+  - text: Sorry I don't know the answer, can you please ask questions related to COVID-19?
+  utter_default:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+  utter_smalltalk_human:
+  - text: Yes, I am a COVID-19 Assistant here to help you find answers.
+  - text: Yes I am a Robot to assist you in COVID-19 realated questions.
+  utter_goodbye:
+  - text: Bye
+  utter_thanks:
+  - text: You are welcome!
+  utter_asking_bot_about_health:
+  - text: I am good 🙂. How are you?
+
+actions: []
+forms: {}
+e2e_actions: []

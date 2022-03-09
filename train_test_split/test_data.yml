@@ -1,0 +1,274 @@
+version: "2.0"
+nlu:
+- intent: faq/recovery_time_corona
+  examples: |
+    - How long does a person take to get recovered from corona virus?
+- intent: faq/steps_for_sick_person
+  examples: |
+    - How to react when i am sick?
+- intent: faq/find_latest_information
+  examples: |
+    - latest information on corona virus?
+- intent: faq/testing_1
+  examples: |
+    - who should take the corona test?
+    - when should i get a test for covid 19?
+- intent: faq/herd_immunity
+  examples: |
+    - what do you know about herd immunity?
+- intent: faq/Solidarity_Trial
+  examples: |
+    - what is Solidarity Trial?
+- intent: faq/molecular_test
+  examples: |
+    - molecular test
+    - define molecular test
+- intent: faq/serological_test
+  examples: |
+    - meaning of serological test
+- intent: faq/rapid_test
+  examples: |
+    - what does rapid test mean?
+    - what about rapid test
+- intent: faq/antibiotics_not_useful
+  examples: |
+    - will antibiotics kill virus?
+- intent: faq/medical_mask
+  examples: |
+    - what about medical mask
+- intent: faq/respirators_mask
+  examples: |
+    - respirators
+    - what does respirators mean?
+- intent: faq/face_shield
+  examples: |
+    - face shield
+- intent: faq/contact_tracing
+  examples: |
+    - what do you know about contact tracing?
+    - what does contact tracing mean?
+- intent: faq/precautions_for_travel
+  examples: |
+    - precations for essential travel?
+- intent: faq/types_of_masks
+  examples: |
+    - kinds of mask
+    - What is mask?
+- intent: faq/quarantine
+  examples: |
+    - quarantine
+    - will quarantine work?
+    - when should i stay in quarantine?
+- intent: faq/isolation
+  examples: |
+    - meaning of isolation
+    - what about isolation
+- intent: faq/corona_lasts_on_surfaces
+  examples: |
+    - How long does the coronavirus last on surfaces?
+    - how long does the virus stay on your hands?
+- intent: faq/how_to_protect_from_coronavirus
+  examples: |
+    - how can i avoid covid-19?
+    - how do we stop people getting it?
+    - what should i do to protect myself?
+- intent: faq/fabric_mask
+  examples: |
+    - non-medical mask
+    - what is non-medical mask ?
+    - fabric mask
+- intent: faq/testing
+  examples: |
+    - where are test available?
+    - how do they test for covid-19?
+    - can i have a test even if i don't have symptoms?
+- intent: faq/handwashing
+  examples: |
+    - why do i need to use soap?
+    - can soap help keep the virus off my hands?
+    - how long should i hand-wash for?
+- intent: faq/handwashing_techniques
+  examples: |
+    - How to prevent corona virus?
+    - what are the instructions for hand-washing
+    - How to wash hands durining this covid time?
+    - how should i wash my hands
+    - Do you know about handwashing techniques?
+- intent: faq/vaccine
+  examples: |
+    - when can we expected a vaccine?
+    - can you be inoculated?
+    - how does vaccine research work
+    - is a vaccine being developed?
+    - is there si cure for covid-19?
+- intent: faq/spread_disease
+  examples: |
+    - what happens if i get corona
+    - how does covid-19 spread from one person to another?
+    - how is it so contagious?
+    - how does covid 19 spread?
+    - can covid get into my eyes?
+    - does coughing spread corona?
+    - how do viruses become widespread?
+- intent: faq/distancing
+  examples: |
+    - do i have to avoid going outside?
+    - why do i have to stay inside
+    - what are the guidelines for isolating?
+    - can i still go outside?
+    - why should most people isolate?
+    - what does social distancing mean?
+    - how will social distancing help?
+- intent: faq/about_corona
+  examples: |
+    - how is the corona virus structured?
+    - how are viruses formed?
+    - what is the difference between and epidemic and a pandemic?
+    - how are viruses structured?
+    - what is a pandemic?
+    - what does a virus look like?
+    - what does an outbreak mean?
+    - what kind of illness is corona virus?
+- intent: faq/vulnerable
+  examples: |
+    - can dogs get the virus?
+    - i'm concerned about my parents
+    - who should i avoid contact with during the outbreak?
+    - are my dogs at risk?
+    - i am pregnant, am i at a higher risk?
+    - i am years old, am i at risk?
+    - can pets get the virus?
+    - what if someone is diabetic?
+    - why are older age people more at risk from this illness?
+    - should i be worried if i'm expecting?
+- intent: faq/symptoms
+  examples: |
+    - when do i need to go to a clinic?
+    - can people die from contracting covid-19?
+    - what does the virus do to your body?
+    - how do i know if i've caught coronavirus?
+    - can people die from coronavirus?
+    - how do i know if i have a high temperature?
+    - what does a high temperature feel like?
+    - when should i go to the emergency room?
+    - does everyone have symptoms?
+    - can people die from contacting covid-19?
+    - how can i identify the symptoms of corona?
+    - am i going into quarantine?
+    - is joint pain a symptom?
+    - should i go to a health centre if i have symptoms?
+    - i'm coughing, what should i do?
+    - how do i know if i need hospital treatment?
+- intent: affirm
+  examples: |
+    - y
+- intent: deny
+  examples: |
+    - I don't think so
+- intent: goodbye
+  examples: |
+    - cu
+    - bye bye
+    - have a nice day
+- intent: thanks
+  examples: |
+    - thanks a lot
+    - ok thanks!
+    - thankssss
+- intent: mood_great
+  examples: |
+    - wonderful
+    - I am great
+    - I am feeling very good
+- intent: mood_unhappy
+  examples: |
+    - terrible
+    - sad
+    - so sad
+    - so saad
+- intent: smalltalk_human
+  examples: |
+    - i don't want to talk to a chatbot
+    - is this a real person or a bot?
+    - i'd like to speak to a person
+    - am a talking with a bot?
+- intent: greet
+  examples: |
+    - ..
+    - Hellooo
+    - hi
+    - hmm
+    - goodevening
+- intent: out_of_scope
+  examples: |
+    - oh my god
+    - i want a pepperoni pizza
+    - marry me
+    - talk to me
+    - who is your favourite robot?
+    - no stop
+    - can you help me to build a bot
+    - a wood chuck can't chuck wood
+    - is it a wasteland full of broken robot parts?
+    - i'm all out of bubblegum
+    - someone call the police i think the bot died
+    - now i have a machine gun ho-ho-ho!
+- synonym: hospital
+  examples: |
+    - health centre
+    - infirmary
+    - medical centre
+    - medical institution
+    - clinic
+    - hospitals
+    - health centres
+    - infirmaries
+    - medical centres
+    - medical institutions
+    - clinics
+    - emergency room
+    - emergency
+- synonym: corona
+  examples: |
+    - coronavirus
+    - covid
+    - covid-19
+    - covid19
+    - covid 19
+    - virus
+    - viral
+    - pandemic
+    - epidemic
+    - outbreak
+    - illness
+    - disease
+    - viruses
+    - infection
+- synonym: illness
+  examples: |
+    - asthma
+    - diabetes
+    - asthmatic
+    - diabetic
+    - hypertension
+    - heart
+    - heart disease
+    - cardiovascular
+    - cardiovascular disease
+    - respiratory disease
+    - chronic
+    - cancer
+    - lung
+    - lung disease
+    - high blood pressure
+    - blood pressure
+- lookup: name
+  examples: |
+    - Adarsh
+    - Johannes
+    - Rohit
+    - raju
+    - ravi
+    - Chandrakanth
+    - manish
+    - Bhargav

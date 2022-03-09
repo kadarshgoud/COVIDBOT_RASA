@@ -1,0 +1,254 @@
+{
+  "faq/antibiotics_not_useful": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/handwashing": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 16,
+    "confused_with": {
+      "faq/handwashing_techniques": 6,
+      "faq/about_corona": 1
+    }
+  },
+  "faq/precautions_for_travel": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "faq/distancing": {
+    "precision": 0.9210526315789473,
+    "recall": 1.0,
+    "f1-score": 0.958904109589041,
+    "support": 35,
+    "confused_with": {}
+  },
+  "faq/about_corona": {
+    "precision": 0.86,
+    "recall": 1.0,
+    "f1-score": 0.924731182795699,
+    "support": 43,
+    "confused_with": {}
+  },
+  "faq/face_shield": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/handwashing_techniques": {
+    "precision": 0.7692307692307693,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8333333333333333,
+    "support": 22,
+    "confused_with": {
+      "faq/handwashing": 2
+    }
+  },
+  "faq/corona_lasts_on_surfaces": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9166666666666666,
+    "support": 12,
+    "confused_with": {
+      "faq/about_corona": 1
+    }
+  },
+  "faq/spread_disease": {
+    "precision": 0.967741935483871,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.923076923076923,
+    "support": 34,
+    "confused_with": {
+      "faq/about_corona": 1,
+      "faq/symptoms": 1
+    }
+  },
+  "faq/respirators_mask": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/contact_tracing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/fabric_mask": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "faq/symptoms": {
+    "precision": 0.9125,
+    "recall": 0.948051948051948,
+    "f1-score": 0.929936305732484,
+    "support": 77,
+    "confused_with": {
+      "faq/about_corona": 1,
+      "faq/testing": 1
+    }
+  },
+  "faq/quarantine": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
+  },
+  "faq/molecular_test": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/testing": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8148148148148148,
+    "support": 15,
+    "confused_with": {
+      "faq/symptoms": 3,
+      "faq/how_to_protect_from_coronavirus": 1
+    }
+  },
+  "faq/Solidarity_Trial": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/vulnerable": {
+    "precision": 1.0,
+    "recall": 0.9607843137254902,
+    "f1-score": 0.98,
+    "support": 51,
+    "confused_with": {
+      "faq/distancing": 1,
+      "faq/spread_disease": 1
+    }
+  },
+  "faq/find_latest_information": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "faq/about_corona": 1
+    }
+  },
+  "faq/herd_immunity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/steps_for_sick_person": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "faq/testing_1": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "faq/symptoms": 2
+    }
+  },
+  "faq/types_of_masks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "faq/how_to_protect_from_coronavirus": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "faq/recovery_time_corona": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "faq/about_corona": 1
+    }
+  },
+  "faq/isolation": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 12,
+    "confused_with": {
+      "faq/distancing": 2
+    }
+  },
+  "faq/vaccine": {
+    "precision": 1.0,
+    "recall": 0.9615384615384616,
+    "f1-score": 0.9803921568627451,
+    "support": 26,
+    "confused_with": {
+      "faq/about_corona": 1
+    }
+  },
+  "faq/rapid_test": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/medical_mask": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "faq/serological_test": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "accuracy": 0.9349593495934959,
+  "macro avg": {
+    "precision": 0.9593508445431195,
+    "recall": 0.931425698484522,
+    "f1-score": 0.9421327017822677,
+    "support": 492
+  },
+  "weighted avg": {
+    "precision": 0.9367323404501187,
+    "recall": 0.9349593495934959,
+    "f1-score": 0.9332274919389808,
+    "support": 492
+  }
+}

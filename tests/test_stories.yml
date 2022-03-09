@@ -1,0 +1,104 @@
+version: "2.0"
+
+stories:
+ 
+- story: happy path
+  steps:
+  - user: |
+      Hi
+  - intent: greet
+  - action: utter_greet
+  - user: |
+      I am happy
+  - intent: mood_great
+  - action: utter_happy
+  - action: utter_how_can_i_help
+  
+  
+- story: happy path without greet 
+  steps:
+  - user: |
+      very happy
+  - intent: mood_great
+  - action: utter_happy
+  - action: utter_how_can_i_help
+   
+- story: out of scope
+  steps:
+  - user: |
+      i am hungry
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: thanks
+  steps:
+  - user: |
+      thank you
+  - intent: thanks
+  - action: utter_thanks
+ 
+  
+- story: talk with bot
+  steps:
+  - user: |
+        are you a human?
+  - intent: smalltalk_human
+  - action: utter_smalltalk_human
+
+- story: sad path 1
+  steps:
+  - user: |
+       hello
+  - intent: greet
+  - action: utter_greet
+  - user: |
+        sad
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - user: |
+        yes
+  - intent: affirm
+  - action: utter_happy
+  - action: utter_how_can_i_help
+  
+- story: sad path 3
+  steps:
+  - user: |
+        i am sad
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - user: |
+        yes
+  - intent: affirm
+  - action: utter_happy
+  - action: utter_how_can_i_help
+
+- story: sad path 2
+  steps:
+  - user: |
+        howdy
+  - intent: greet
+  - action: utter_greet
+  - user: |
+        very sad
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - user: |
+         no
+  - intent: deny
+  - action: utter_goodbye
+  
+- story: sad path 4
+  steps:
+  - user: |
+       very very sad
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - user: |
+        no
+  - intent: deny
+  - action: utter_goodbye

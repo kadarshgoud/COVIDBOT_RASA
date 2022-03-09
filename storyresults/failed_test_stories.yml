@@ -1,0 +1,108 @@
+version: "2.0"
+stories:
+- story: happy path (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      Hi
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: greet
+  - action: utter_greet
+  - user: |-
+      I am happy
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_great
+  - action: utter_happy  # predicted: action_default_fallback
+  - action: utter_how_can_i_help  # predicted: action_default_fallback
+- story: happy path without greet (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      very happy
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_great
+  - action: utter_happy  # predicted: action_default_fallback
+  - action: utter_how_can_i_help  # predicted: action_default_fallback
+- story: out of scope (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      i am hungry
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+- story: thanks (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      thank you
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: thanks
+  - action: utter_thanks  # predicted: action_default_fallback
+- story: talk with bot (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      are you a human?
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: smalltalk_human
+  - action: utter_smalltalk_human
+- story: sad path 1 (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      hello
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: greet
+  - action: utter_greet
+  - user: |-
+      sad
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - user: |-
+      yes
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: affirm
+  - action: utter_happy  # predicted: action_default_fallback
+  - action: utter_how_can_i_help  # predicted: action_default_fallback
+- story: sad path 3 (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      i am sad
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - user: |-
+      yes
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: affirm
+  - action: utter_happy  # predicted: action_default_fallback
+  - action: utter_how_can_i_help  # predicted: action_default_fallback
+- story: sad path 2 (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      howdy
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: greet
+  - action: utter_greet
+  - user: |-
+      very sad
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - user: |-
+      no
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deny
+  - action: utter_goodbye  # predicted: action_default_fallback
+- story: sad path 4 (C:\Users\Adu\AppData\Local\Temp\tmp8h75adsy\91c1973bb004432eab2f032668d706a5_test_stories.yml)
+  steps:
+  - user: |-
+      very very sad
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help  # predicted: action_default_fallback
+  - user: |-
+      no
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deny
+  - action: utter_goodbye  # predicted: action_default_fallback
